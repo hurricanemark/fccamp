@@ -73,6 +73,7 @@ ALTER TABLE ONLY public.moon ADD CONSTRAINT fk FOREIGN KEY (planet_id) REFERENCE
 
 INSERT INTO galaxy(name, classification, number_of_star_systems, warp_capable_civilizations, colonized_by_humanoids, indigenous_non_humanoid, waring_factions) VALUES('Milkyway', 'Spiral', 1210324, 213, True, True, 12),('Canis Major Dwarf', 'Spiral', 430034000, 12192, False, True, 25),('Cygnus A', 'Spiral', 92837452, 192, True, True, 9225),('Maffei I', 'Spiral', 7452, 192, True, False, 1223),('Maffei I I', 'Spial', 7123452, 92, True, True, 233);
 
+/*
 galaxies
 Andromeda Galaxy
 Canis Major Dwarf Galaxy
@@ -86,4 +87,4 @@ Coma cluster
 Local Group
 M81 group
 Virgo cluster
-
+*/
