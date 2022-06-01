@@ -1,0 +1,3 @@
+[submodule "StockPriceChecker"]
+	path = StockPriceChecker
+	url = https://github.com/hurricanemark/fccamp.git
